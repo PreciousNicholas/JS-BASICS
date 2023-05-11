@@ -12,4 +12,4 @@
     document.getElementById("para").innerHTML="your jamb score is " + (total);
     
  })
-    
+    let body = document.getElementById('body')

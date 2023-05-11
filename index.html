@@ -7,25 +7,25 @@
     <title>Javascript</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body id="body">
     <div id="box">
         <h1>Jamb score calculator</h1>
     <form class="jamb-form">
         <div class="maths">
             <label for="Maths">Maths:</label>
-            <input type="text" id="mat" placeholder="max.100">
+            <input type="number" id="mat"placeholder="max.100" max="100">
         </div>
         <div class="english">
             <label for="English">English:</label>
-            <input type="text" id="eng" placeholder="max.100">
+            <input type="number" id="eng" placeholder="max.100" max="100">
         </div>
         <div class="physics">
             <label for="physics">Physics:</label>
-            <input type="text" id="phy" placeholder="max.100">
+            <input type="number" id="phy" placeholder="max.100" max="100">
         </div>
         <div class="chemistry">
             <label for="chemistry">Chemistry:</label>
-            <input type="text" id="che" placeholder="max.100">
+            <input type="number" id="che" placeholder="max.100">
         </div>
     </form>
         <button id="btn">
